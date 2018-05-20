@@ -44,7 +44,7 @@ See also the list of [contributors](https://github.com/NDStrahilevitz/Waypoints/
 
 ## License
 
-TODO
+This project is licensed under the GNU GPLv3 License. More info in the LICENSE.md file.
 
 ## Acknowledgments
 
