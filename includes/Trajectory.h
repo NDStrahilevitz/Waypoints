@@ -26,7 +26,6 @@ public:
 	//Waypoint interface
 	const double GetHeading() const;
 	const double GetHeadingDegrees() const;
-
 };
 
 class Trajectory {
