@@ -57,7 +57,9 @@ void MotionProfile::GenerateParams() {
 		if (totalInterval < m_params.time) {
 			//prepare triangular profile
 			if ((int)cruiseDist == 0) {
-				m_params.accel = std::fmin(deltaV / (m_params.time / 2), m_config.maxAcc);
+				double time2 = m_params.time * m_params.time;
+				m_params.accel = (2 * m_params.dist) / time2;
+				m_params.cruiseVel = m_params.accel * m_params.time / 2;
 			}
 			else {
 				//prepare trapezoidal profile which keeps
