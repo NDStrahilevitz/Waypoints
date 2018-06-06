@@ -26,7 +26,7 @@ struct Waypoint {
 	Vec2D m_gradient;
 
 	//coordinates in carteisan system
-	explicit Waypoint(const Vec2D& coords, const Vec2D& gradient = { 0, 0 });
+	Waypoint(const Vec2D& coords, const Vec2D& gradient = { 0, 0 });
 	Waypoint(const Vec2D& coords, double heading = 0); //heading in degrees
 
 	const double GetHeading() const; //returns in radians
