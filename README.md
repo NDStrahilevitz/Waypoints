@@ -4,7 +4,7 @@ Waypoints is a Trajectory Generation Library, made for use in robotics applicati
 It was made during my time participating in the FRC and as such was made for use on the roboRIO in mind, however
 it can be used in any project where this is suitable.
 
-The library is currently only supplied for use with C/C++ however Java and Python bindings are planned for the future.
+The library is currently only supplied for use with C++ however Java and Python bindings are planned for the future.
 
 ## Getting Started
 
@@ -22,10 +22,6 @@ None
 1. Download the appropriate version.
 
 2. Include the headers and link to the library in your project.
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
